@@ -1,3 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Skydash Admin</title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="{{asset('vendors/feather/feather.css')}}">
+  <link rel="stylesheet" href="{{asset('vendors/ti-icons/css/themify-icons.css')}}">
+  <link rel="stylesheet" href="{{asset('vendors/css/vendor.bundle.base.css')}}">
+  <!-- endinject -->
+  <!-- Plugin css for this page -->
+  <link rel="stylesheet" href="{{asset('vendors/datatables.net-bs4/dataTables.bootstrap4.css')}}">
+  <link rel="stylesheet" href="{{asset('vendors/ti-icons/css/themify-icons.css')}}">
+  <link rel="stylesheet" type="text/css" href="{{asset('js/select.dataTables.min.css')}}">
+  <!-- End plugin css for this page -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="{{asset('css/vertical-layout-light/style.css')}}">
+  <!-- endinject -->
+  <link rel="shortcut icon" href="{{asset('images/favicon.png')}}" />
+</head>
+<body>
+    <div class="content-wrapper">
+          @yield('content')
+        <footer class="footer">
+          <div class="d-sm-flex justify-content-center justify-content-sm-between">
+            <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2021</span>
+          </div>
+        </footer>
+    </div>
+
+
+  <!-- plugins:js -->
+  <script src="{{asset('vendors/js/vendor.bundle.base.js')}}"></script>
+  <!-- endinject -->
+  <!-- Plugin js for this page -->
+  <script src="{{asset('vendors/chart.js/Chart.min.js')}}"></script>
+  <script src="{{asset('vendors/datatables.net/jquery.dataTables.js')}}"></script>
+  <script src="{{asset('vendors/datatables.net-bs4/dataTables.bootstrap4.js')}}"></script>
+  <script src="{{asset('js/dataTables.select.min.js')}}"></script>
+
+  <!-- End plugin js for this page -->
+  <!-- inject:js -->
+  <script src="{{asset('js/off-canvas.js')}}"></script>
+  <script src="{{asset('js/hoverable-collapse.js')}}"></script>
+  <script src="{{asset('js/template.js')}}"></script>
+  <script src="{{asset('js/settings.js')}}"></script>
+  <script src="{{asset('js/todolist.js')}}"></script>
+  <!-- endinject -->
+  <!-- Custom js for this page-->
+  <script src="{{asset('js/dashboard.js')}}"></script>
+  <script src="{{asset('js/Chart.roundedBarCharts.js')}}"></script>
+  <!-- End custom js for this page-->
+</body>
+
+</html>
+
 {{--
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
@@ -49,39 +108,3 @@
                 </div>
             </div>
         </nav> --}}
-
-        <!doctype html>
-        <html lang="en" class="fullscreen-bg">
-
-        <head>
-            <title>Login</title>
-            <meta charset="utf-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-            <!-- VENDOR CSS -->
-
-            <link rel="stylesheet" href="{{asset('static/bootstrap/css/bootstrap.min.css')}}">
-            <link rel="stylesheet" href="{{asset('static/font-awesome/css/font-awesome.min.css')}}">
-            <link rel="stylesheet" href="{{asset('static/linearicons/style.css')}}">
-            <link rel="stylesheet" href="{{asset('static/chartist/css/chartist-custom.css')}}">
-
-            <!-- MAIN CSS -->
-            <link rel="stylesheet" href="{{asset('css/main.css')}}">
-            <!-- FOR DEMO PURPOSES ONLY. You should remove this in your project -->
-            <link rel="stylesheet" href="{{asset('css/demo.css')}}">
-
-            <!-- GOOGLE FONTS -->
-            <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
-            <!-- ICONS -->
-            <link rel="apple-touch-icon" sizes="76x76" href="{{asset('img/apple-icon.png')}}">
-
-            <link rel="icon" type="image/png" sizes="96x96" href="{{asset('img/logo.png')}}">
-        </head>
-
-        <body>
-            <div class="main">
-                @yield('content')
-            </div>
-        </body>
-
-        </html>
