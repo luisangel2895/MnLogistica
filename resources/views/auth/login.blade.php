@@ -8,7 +8,7 @@
           <div class="col-lg-4 mx-auto">
             <div class="auth-form-light text-left py-5 px-4 px-sm-5">
               <div class="brand-logo" style="text-align: center;">
-                <img src="{{asset('images/logo.png')}}" alt="logo">
+                <img src="{{asset('images/logo-mini.png')}}" alt="logo">
               </div>
               <h4>Iniciar Sesion</h4>
               <h6 class="font-weight-light">Sign in to continue.</h6>
@@ -34,7 +34,7 @@
 
                 <div class="my-2 d-flex justify-content-between align-items-center">
                   <div class="form-check">
-                      <input type="checkbox" class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
+                      <input type="checkbox" class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }} style="margin-left: 5%;">
                       <label class="form-check-label text-muted" for="remember">
                         {{ __('Remember Me') }}
                       </label>
