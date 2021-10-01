@@ -1,17 +1,17 @@
 
 # Mn Logistica
 
-Es un sistema de administracion se equipos y materiales de telecomunicaciones
+Logistics platform for telecommunications products of the company MnLogistica
 
-## Lenguaje
+## Stack
 
-- **[Laravel]**
-- **[Bootrap 4]**
+- **[Laravel7]**
+- **[Tailwind]**
   
-## Sistema de administracion
+## Administration system
 
-Se uso el sistema de administracion de KLOROFIL
+The KLOROFIL administration system was used
 
-## Derechos 
+## Right s
 
-Derechos reservados para Luis Angel :v
+Rights reserved for Angel Orellana
