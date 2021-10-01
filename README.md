@@ -12,6 +12,6 @@ Logistics platform for telecommunications products of the company MnLogistica
 
 The KLOROFIL administration system was used
 
-## Right s
+## Rights
 
 Rights reserved for Angel Orellana
